@@ -43,7 +43,7 @@ nav a {
   background-position: top;
   height: 160vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   padding-top: 80px; /* to offset fixed header */
   text-align: top;
@@ -66,7 +66,7 @@ nav a {
 .content {
   padding: 60px 20px;
   background: #f9f9f9;
-  text-align: top;
+  text-align: center;
 }
 .content h2 {
   margin-bottom: 20px;
