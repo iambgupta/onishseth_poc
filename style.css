@@ -45,8 +45,9 @@ nav a {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 80px; /* to offset fixed header */
-  text-align: top;
+  padding-top: 150px; /* to offset fixed header */
+  text-align: center;
+  position: relative;
 }
 .hero-text {
   background-color: rgba(0, 0, 0, 0.5);
