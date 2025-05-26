@@ -12,7 +12,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   padding: 20px;
   background: white;
   position: fixed;
