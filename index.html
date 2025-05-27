@@ -26,9 +26,40 @@
   </section>
 
   <section class="content">
+    <section class="gallery">
     <h2>About Me</h2>
-    <p>Blast off! I’m Onish Seth, a future scientist/astronaut/inventor (depending on what day it is!).
-I love exploring how things work, asking questions, and imagining new worlds. Join me on this spacewalk through my awesome little site!</p>
+    <p>✨🚀 Welcome to Mission: Onish! 🌌🔬</p>
+
+<p>Hi, I’m Onish Seth – future scientist, astronaut, or inventor (depends on what galaxy I wake up in 🌍🪐🛸)!</p>
+<p>I’m always asking BIG questions, building cool stuff, and dreaming up wild adventures.</p>
+<p>Strap in and explore my universe — one discovery at a time!</p>
+
+<p>🧠 Curious minds welcome. Let’s blast off!</p>
   </section>
+   <h2>Photo Gallery</h2>
+  <div class="gallery-grid">
+    <img src="photo1.jpg" alt="Photo1"  onclick="openLightbox(this)">
+    <img src="photo2.jpeg" alt="Photo2" onclick="openLightbox(this)">
+    <img src="photo3.jpeg" alt="Photo3" onclick="openLightbox(this)">
+    <img src="photo4.jpeg" alt="Photo4" onclick="openLightbox(this)">
+    <img src="photo5.jpeg" alt="Photo5" onclick="openLightbox(this)">
+    <img src="photo6.jpeg" alt="Photo6" onclick="openLightbox(this)">
+  </div>
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Enlarged Image">
+  </div>
+</section>
+<script>
+  function openLightbox(img) {
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    lightboxImg.src = img.src;
+    lightbox.style.display = "flex";
+  }
+
+  function closeLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+  }
+  </script>
 </body>
 </html>
